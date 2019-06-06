@@ -1,9 +1,7 @@
-1. DataViz: The first script of the project.
--------------------------------------------------
+## 1. DataViz: The first script of the project.
 	It's just the test of how to download and read the csv using Pandas Data reader.
 
-2. S&P500_List: The script is explained as follows:
------------------------------------------------------------
+## 2. S&P500_List: The script is explained as follows:
 	1.	Saving the Tickers:
 	Tickers are the company’s name in short. We are exploring the Wikipedia website and getting all the tickers and extracting the name of all the tickers from the website and saving them in one pickle file.
 
@@ -16,8 +14,8 @@
 	4.	Visualizing the data:
 	in this function we find the correlation of each company with each other companies and save those value in another CSV file, and after executing the function a heat map of the table is drawn.
 
-3. Buy_Sell: The script is explained as follows:
------------------------------------------------------------
+## 3. Buy_Sell: The script is explained as follows:
+
 	1.	Process data from labels:
 	In this function we are selecting our feature set as the pricing changes for the particular day of all the companies. We will take into the account all the companies percent changes that day, and our label will be whether or not the price rose by ‘x%’ within next n days then according to that we will buy or sell the stock.
 
@@ -37,8 +35,7 @@
 	On the above classifier we train and test our data, we use this because it shuffles the data and creates the training and the testing samples. 
 	Then we’ve calculated the accuracy and printed the predicted spread.
  
-4. TRADE.IPYNB: 
------------------------------------------------------------
+## 4. TRADE.IPYNB: 
    To perform the backtesting process and analyze the amount of money that a person has invested, i.e. performing the company investment analysis we have used
    the zipline library. It is an inbulit library in python to perform the finanace operations and do the backtesting process. We have used IPyNotebook (Anaconda)
    Jupyter notebook to perform the further operation with the data set that is extracted and trained by us in the above 3 steps.
